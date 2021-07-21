@@ -3,7 +3,7 @@ package HashTable;
 public class HashTable {
 	public static void main(String[] args) {
 		MyHashMap<String, Integer> myHashMap = new MyHashMap<>();
-		String sentence = "To be or not to be";
+		String sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidabe situations";
 		String[] words = sentence.toLowerCase().split(" ");
 		for (String word : words) {
 			Integer value = myHashMap.get(word);
